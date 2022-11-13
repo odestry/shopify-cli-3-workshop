@@ -1,0 +1,18 @@
+{
+  "name": "shopify-cli-3-themes-demo",
+  "version": "0.1.0",
+  "main": "base.js",
+  "author": "blanklob",
+  "license": "MIT",
+  "scripts": {
+    "dev": "env-cmd -r shopify.presets.js -e development shopify theme dev",
+    "dev:test": "env-cmd -r shopify.presets.js -e test shopify theme dev",
+    "dev:prod": "env-cmd -r shopify.presets.js -e test,production shopify theme dev",
+    "push:test": "env-cmd -r shopify.presets.js -e test shopify theme push -u",
+    "push:prod": "env-cmd -r shopify.presets.js -e test,production shopify theme push -u",
+    "push:shopify-incomplete-solution": "shopify theme push --preset development"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
+  }
+}

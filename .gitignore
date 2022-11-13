@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+node_modules
+yarn.lock
+.vscode
+
+# Misc
+.idea
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+ehthumbs.db
+Thumbs.db
+
+# Local env files
+.env
+.env-cmdrc*
+shopify.presets.json
+shopify.presets.js
+shopify.presets.toml
+
