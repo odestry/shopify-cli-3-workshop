@@ -35,18 +35,27 @@ Once first step is done, start by installing the dependencies, with either yarn,
 yarn install # or npm install
 ```
 
-### Replace the configuration files
+
+### Replace the naming of the configuration files 
+
+Once the second step is done all you have to do is remove the `.tpl` keyword in the file, or create a new file, without the tpl, the new file will be ignored by git, and start filling it with proper enviroments variable values.
+
+
+### Replace the enviroment variables in the configuration files
 
 Choose which configuration file you want to choose, by default it's the `shopify.presets.json` json version, then replace all enviroement variables with proper values, mainly these values for each enviroment, and you can also remove or change enviroments name in the configuration, just make sure you do the same in the `package.json` scripts part after the `-e` flag.
 
 Supported enviroments variables:
-- `SHOPIFY_CLI_THEME_TOKEN` : This is a private token, can be claimed using the [Theme Access Shopify Public]() app. (required for programatic use)
+- `SHOPIFY_CLI_THEME_TOKEN` : This is a private token, can be claimed using the [Theme Access Shopify Public](https://apps.shopify.com/theme-access) app. (required for programatic use)
 - `SHOPIFY_FLAG_STORE` : The store handle or url example: blanklob.myshopify.com or just blanklob. (required for programatic use)
 - `SHOPIFY_FLAG_THEME_ID` : the name or the theme id that you want push to, if the theme deosn't exist make sure you add `-u` flag to the commande, so Shopify CLI will create a new theme. (required for programatic use)
 - `SHOPIFY_FLAG_PATH` : The path to theme folder. Default '.' an example would be: './dist' 
  
 > Make sure you don't commit your presets file to github, or add secrets to package.json, the `SHOPIFY_CLI_THEME_TOKEN` is a private token, that should not be shared publicly.
 
+## Caveats 
+
+There are some few caveats, the first is that the `shopify theme dev` command deosn't support `--password` flag which means it deosn't support programtic auth, you need to authenticate every 90 minutes, to use the command on a specific store, this is one of the few issues that are discussed in the Shopify CLI 3.0 repo. Check refrences below for more informations.
 
 ## References 
 
