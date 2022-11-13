@@ -6,11 +6,12 @@
   },
   "test": {
     "SHOPIFY_CLI_THEME_TOKEN": "shyptaa_a7192e0c7b2a9ee...",
-    "SHOPIFY_FLAG_STORE": "example.myshopify.com",
+    "SHOPIFY_FLAG_STORE": "example-test.myshopify.com",
     "SHOPIFY_FLAG_THEME_ID": "test-theme",
     "SHOPIFY_FLAG_PATH": "."
   },
   "production": {
+    "SHOPIFY_FLAG_STORE": "example.myshopify.com",
     "SHOPIFY_FLAG_THEME_ID": "theme",
     "SHOPIFY_FLAG_PATH": "."
   }
