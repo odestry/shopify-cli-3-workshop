@@ -62,7 +62,7 @@ Supported enviroments variables:
 
 ## Caveats 
 
-There are some few caveats, the first is that the `shopify theme dev` command deosn't support `--password` flag which means it deosn't support programtic auth, you need to authenticate every 90 minutes, to use the command on a specific store, this is one of the few issues that are discussed in the Shopify CLI 3.0 repo. Check refrences below for more informations.
+There are some few caveats to this workflow, the first is that the `shopify theme dev` command deosn't support `--password` flag which means it deosn't support programtic auth, you need to authenticate every 90 minutes, to use the command on a specific store, this is one of the few issues that are discussed in the Shopify CLI 3.0 repo. Check refrences below for more informations.
 
 ## References 
 
