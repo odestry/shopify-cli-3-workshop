@@ -4,6 +4,13 @@
 
 > Please note that Shopify might change this in the future, so you might wanna check if Shopify implimented a better way to handle mutlitple enviroments
  natively before using this work-around.
+
+## Video tutorial 
+
+[![Tutoria about How to use Shopify CLI 3.0 for Theme Development and deploy themes to different stores.](https://img.youtube.com/vi/keRtZNx_cco/0.jpg)](https://www.youtube.com/watch?v=keRtZNx_cco)
+
+An overview of the Shopify CLI 3.0 and how to use it with themes and to deploy themes programmatically to multiple stores, please keep in mind that you can still use Shopify Github integration to handle deployment. I also introduced Shopify CLI plugins, a cool feature to extend it and make it more personalized depending on your needs.
+
  
 ## Getting started 
 
