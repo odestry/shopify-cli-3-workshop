@@ -1,9 +1,8 @@
 {
-  "name": "shopify-cli-3-themes-demo",
+  "name": "shopify-cli-3-workshop",
   "version": "0.1.0",
-  "main": "base.js",
-  "author": "blanklob",
-  "license": "MIT",
+  "private": true,
+  "type": "module",
   "scripts": {
     "dev": "env-cmd -r shopify.presets.json -e development shopify theme dev",
     "dev:test": "env-cmd -r shopify.presets.json -e test shopify theme dev",
