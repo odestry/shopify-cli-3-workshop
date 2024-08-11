@@ -3,7 +3,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&colorA=338fbb&colorB=1c1c1c&logoColor=ffffff)](https://github.com/odestry/.github/blob/main/CONTRIBUTING.md)
 [![Discord Shield](https://img.shields.io/discord/983602196493004820?style=flat&colorA=338fbb&colorB=1c1c1c&label=discord&logo=discord&logoColor=ffffff)](https://discord.gg/blanklob-community-983602196493004820)
 
-[Tutorial](#tutorial) |
+[Video guide](#video-guide) |
 [Getting started](#getting-started) |
 [Caveats](#caveats) |
 [Contributing](#contributing) |
@@ -12,7 +12,7 @@
 
 > Please note that Shopify might change this in the future, so you might wanna check if Shopify implimented a better way to handle mutlitple enviroments natively before using this work-around.
 
-## Tutorial
+## Video guide
 
 <div align="center">
   <a href="https://youtu.be/keRtZNx_cco">
