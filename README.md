@@ -14,9 +14,13 @@
 
 ## Tutorial
 
-[![Tutoria about How to use Shopify CLI 3.0 for Theme Development and deploy themes to different stores.](https://img.youtube.com/vi/keRtZNx_cco/0.jpg)](https://www.youtube.com/watch?v=keRtZNx_cco)
+<div align="center">
+  <a href="https://youtu.be/keRtZNx_cco">
+    <img src="https://img.youtube.com/vi/keRtZNx_cco/maxresdefault.jpg" alt="Watch the video" style="width:100%;">
+  </a>
+</div>
 
-An overview of the Shopify CLI 3.0 and how to use it with themes and to deploy themes programmatically to multiple stores, please keep in mind that you can still use Shopify Github integration to handle deployment. I also introduced Shopify CLI plugins, a cool feature to extend it and make it more personalized depending on your needs.
+An overview of the Shopify CLI 3.X and how to use it with themes and to deploy themes programmatically to multiple stores, please keep in mind that you can still use Shopify Github integration to handle deployment.
 
 ## Getting started
 
